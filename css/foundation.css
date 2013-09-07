@@ -9,17 +9,7 @@ html,
 body {
   font-size: 100%; }
 
-body {
-  background: white;
-  color: #222222;
-  padding: 0;
-  margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1;
-  position: relative;
-  cursor: default; }
+
 
 a:hover {
   cursor: pointer; }
@@ -90,7 +80,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5em;
+  max-width: 60em;
   *zoom: 1; }
   .row:before, .row:after {
     content: " ";
@@ -2796,7 +2786,7 @@ label.error {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #111111; }
+  background: #B8460D; }
   .contain-to-grid .top-bar {
     margin-bottom: 1.875em; }
 
@@ -2812,7 +2802,7 @@ label.error {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #111111;
+  background: #B8460D;
   margin-bottom: 1.875em; }
   .top-bar ul {
     margin-bottom: 0;
@@ -2859,6 +2849,16 @@ label.error {
       padding: 0 15px;
       height: 45px;
       line-height: 45px; }
+      .top-bar .toggle-topbar a {
+      color: white;
+      text-transform: uppercase;
+      font-size: 0.8125em;
+      font-weight: bold;
+      position: relative;
+      display: block;
+      padding: 0 15px;
+      height: 45px;
+      line-height: 45px; }
     .top-bar .toggle-topbar.menu-icon {
       right: 15px;
       top: 50%;
@@ -2883,7 +2883,7 @@ label.error {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
-      background: #111111; }
+      background: #B8460D; }
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a span {
@@ -2906,7 +2906,7 @@ label.error {
     margin: 0; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-bottom: solid 1px #2b2b2b;
+    border-bottom: solid 1px #821111;
     border-top: solid 1px black;
     clear: both;
     height: 1px;
@@ -2940,8 +2940,11 @@ label.error {
   .top-bar-section ul li.hover > a {
     background: #090909;
     color: white; }
+    .top-bar-section ul li > a:hover {
+    background: #821111;
+    color: white; }
   .top-bar-section ul li.active > a {
-    background: #090909;
+    background: #821111;
     color: white; }
   .top-bar-section .has-form {
     padding: 15px; }
@@ -3001,7 +3004,7 @@ label.error {
 
 @media only screen and (min-width: 58.75em) {
   .top-bar {
-    background: #111111;
+    background: #B8460D;
     *zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
@@ -3024,7 +3027,7 @@ label.error {
       position: relative;
       top: 8px; }
     .top-bar.expanded {
-      background: #111111; }
+      background: #B8460D; }
 
   .contain-to-grid .top-bar {
     max-width: 62.5em;
@@ -3047,7 +3050,7 @@ label.error {
     .top-bar-section li a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      background: #111111; }
+      background: #B8460D; }
       .top-bar-section li a:not(.button).hover {
         background: black; }
     .top-bar-section .has-dropdown > a {
@@ -3093,13 +3096,13 @@ label.error {
     .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
       border-bottom: none;
       border-top: none;
-      border-right: solid 1px #2b2b2b;
+      border-right: solid 1px #821111;
       border-left: solid 1px black;
       clear: none;
       height: 45px;
       width: 0px; }
     .top-bar-section .has-form {
-      background: #111111;
+      background: #B8460D;
       padding: 0 15px;
       height: 45px; }
     .top-bar-section ul.right li .dropdown {

@@ -18,12 +18,33 @@
 </head>
 <body>
   <header>
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="row">
+          <div class="small-8 columns show-for-small"><img src="img/logo.png" alt=""></div>
+          <div class="small-4 columns">
+            <ul class="inline-list">
+              <li>Follow us:</li>
+              <li class="social"><img src="img/icon_fb.jpg" alt="Follow us"></li>
+              <li class="social"><img src="img/icon_twitter.jpg" alt="Follow us"></li>
+              <li class="social"><img src="img/icon_email.jpg" alt="Follow us"></li>
+              <li class="social"><img src="img/icon_linkedin.jpg" alt="Follow us"></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="contain-to-grid">
       <nav class="top-bar">
         <ul class="title-area">
             <!-- Title Area -->
-          <li class="name">
-            <h1><a href="#">Wilsons Barbeque House</a></h1>
+          <li class="name show-for-small">
+            <h1><a href="index.html">Wilsons Barbeque House</a></h1>
+          </li>
+          <!--  -->
+          <li class="logo show-for-medium-up">
+            <h1><a href="index.html"><img src="img/logo.png"></a></h1>
           </li>
           <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
         </ul>
@@ -64,11 +85,12 @@
 
     <aside class="large-3 columns">
       <div class="section-container">
-        <img src="http://placehold.it/350x250/916713/fff&amp;text=Banner1" alt="Banners">
-        <img src="http://placehold.it/350x250/CC9831/fff&amp;text=Banner2" alt="Banners">
-        <img src="http://placehold.it/350x250/540808/fff&amp;text=Banner3" alt="Banners">
-        <img src="http://placehold.it/350x250/821111/fff&amp;text=Banner4" alt="Banners">
-        <img src="http://placehold.it/350x250/B8460D/fff&amp;text=Banner5" alt="Banners">
+        <ul>
+          <li class="banners"><a href="#"><img src="img/banner1.jpg" alt="Wilsons BBQ"></a></li>
+          <li class="banners"><a href="#"><img src="img/banner2.jpg" alt="Wilsons BBQ"></a></li>
+          <li class="banners"><a href="#"><img src="img/banner3.jpg" alt="Wilsons BBQ"></a></li>
+          <li class="banners"><a href="#"><img src="img/banner4.jpg" alt="Wilsons BBQ"></a></li>
+        </ul>
       </div>
     </aside>
 	</div>
@@ -86,10 +108,32 @@
   <script>
   document.write('<script src=' +
   ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
+  '.js><\/script>');
+
+
   </script>
+
   
   <script src="js/foundation.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('li.social').mouseenter(function() {
+      $(this).fadeTo('slow', .4);
+    });
+    $('li.social').mouseleave(function() {
+      $(this).fadeTo('slow', 1);
+    });
+
+    $('li.banners').mouseenter(function() {
+      $(this).fadeTo('slow', .5);
+    });
+    $('li.banners').mouseleave(function() {
+      $(this).fadeTo('slow', 1);
+    });
+    
+  });
+
+  </script>
   <!--
   
   <script src="js/foundation/foundation.js"></script>

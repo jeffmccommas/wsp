@@ -14,10 +14,9 @@ body {
   cursor: default;
 }
 
-.section-container{
-  background-color: #efefef;
-  cursor: pointer;
-  border: solid 1px #cccccc; 
+.section-container ul { 
+  list-style: none;
+  
 }
 .footer {
   width: 100%;
@@ -27,3 +26,38 @@ body {
   padding: 20px 0 0 0;
   color: white; 
 }
+.contain-to-grid {
+  width: 100%;
+  background: #B8460D;
+  margin-top: 2.2em; }
+  .contain-to-grid .top-bar {
+    margin-bottom: 1.875em; 
+  }
+
+.top-bar .logo {
+  position: relative;
+  top: -5.3em;
+}
+
+.top-bar .title-area {
+    position: relative;
+    margin: 0; }
+    @media only screen and (min-width: 769px) {
+.top-bar .title-area {
+    position: relative;
+    margin: 0 0 -5.3em 0;}}
+
+.top-bar .name {
+    height: 45px;
+    margin: 0;
+    font-size: 16; }
+    .top-bar .name h1 {
+      line-height: 45px;
+      font-size: 1.0625em;
+      margin: 0; }
+      .top-bar .name h1 a {
+        font-weight: bold;
+        color: white;
+        width: 80%;
+        display: block;
+        padding: 0 15px; }

@@ -14,10 +14,46 @@ body {
   cursor: default;
 }
 
-.section-container ul { 
+/* Default header styles */
+h1 {
+  font-family: 'Allerta', sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  color: #c11600;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.2125em; }
+
+h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  color: #8a8989;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.2125em; }
+
+.subheader {
+  line-height: 1.4;
+  font-family: "Anton", sans-serif;
+  color: #8a8989;
+  font-weight: 300;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em; }
+
+.section-container ul li { 
   list-style: none;
+  padding: 0 0 25px 0;
   
 }
+
+.section-container li .social { 
+  
+  
+}
+
 .footer {
   width: 100%;
   background: #B8460D;

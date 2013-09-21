@@ -3178,7 +3178,10 @@ label.error {
   overflow: hidden;
   width: 100%;
   position: relative;
-  background: whitesmoke; }
+  background: #535957;
+  border-radius: 6px;
+
+   }
   .orbit-container .orbit-slides-container {
     list-style: none;
     margin: 0;

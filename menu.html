@@ -95,9 +95,9 @@
 
     <aside class="large-3 columns menuImages">
       <ul>
-        <li><img class="th radius" src="img/menu_01.jpg" alt="Menus Items"></li>
-        <li><img class="th radius" src="img/menu_02.jpg" alt="Menu Items"></li>
-        <li><img class="th radius" src="img/menu_03.jpg" alt="Menu Items"></li>
+        <li class="menuPics"><img class="th radius" src="img/menu_01.jpg" alt="Menus Items"></li>
+        <li class="menuPics"><img class="th radius" src="img/menu_02.jpg" alt="Menu Items"></li>
+        <li class="menuPics"><img class="th radius" src="img/menu_03.jpg" alt="Menu Items"></li>
       </ul>
     </aside>
 
@@ -183,6 +183,13 @@
       $(this).fadeTo('slow', .7);
     });
     $('li.banners').mouseleave(function() {
+      $(this).fadeTo('slow', 1);
+    });
+
+    $('li.menuPics').mouseenter(function() {
+      $(this).fadeTo('slow', .8);
+    });
+    $('li.menuPics').mouseleave(function() {
       $(this).fadeTo('slow', 1);
     });
     

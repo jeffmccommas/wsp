@@ -86,10 +86,10 @@
 
     <div class="row">
       <div class="large-6 columns">
-        <img class="th radius" src="img/catering_01.jpg" alt="Catering at its best">
+        <img class="th radius catering" src="img/catering_01.jpg" alt="Catering at its best">
       </div>
       <div class="large-6 columns">
-        <img class="th radius" src="img/catering_02.jpg" alt="Enjoy good Barbecue">
+        <img class="th radius catering" src="img/catering_02.jpg" alt="Enjoy good Barbecue">
       </div>
     </div>
 		</div>
@@ -159,6 +159,13 @@
       $(this).fadeTo('slow', .7);
     });
     $('li.banners').mouseleave(function() {
+      $(this).fadeTo('slow', 1);
+    });
+
+     $('.catering').mouseenter(function() {
+      $(this).fadeTo('slow', .9);
+    });
+    $('.catering').mouseleave(function() {
       $(this).fadeTo('slow', 1);
     });
     

@@ -142,3 +142,26 @@ h2 {
         width: 80%;
         display: block;
         padding: 0 15px; }
+
+  /* Slider Bullets */
+
+.orbit-bullets {
+  margin: 0 auto 30px auto;
+  overflow: hidden;
+  position: relative;
+  top: 10px;
+  left:20px; }
+  .orbit-bullets li {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: url(../img/bullet_off.png) 0 0 no-repeat;
+    float: left;
+    margin-right: 6px;
+/*    border: solid 1px #555555;
+*/    -webkit-border-radius: 1000px;
+    border-radius: 1000px; }
+    .orbit-bullets li.active {
+      background: url(../img/bullet_on.png) 0 0 no-repeat; }
+    .orbit-bullets li:last-child {
+      margin-right: 0; }        

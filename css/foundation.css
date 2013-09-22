@@ -3291,25 +3291,7 @@ label.error {
     .orbit-container .orbit-next:hover > span {
       border-left-color: #ccc; }
 
-.orbit-bullets {
-  margin: 0 auto 30px auto;
-  overflow: hidden;
-  position: relative;
-  top: 10px; }
-  .orbit-bullets li {
-    display: block;
-    width: 10px;
-    height: 10px;
-    background: #999999;
-    float: left;
-    margin-right: 6px;
-    border: solid 1px #555555;
-    -webkit-border-radius: 1000px;
-    border-radius: 1000px; }
-    .orbit-bullets li.active {
-      background: #555555; }
-    .orbit-bullets li:last-child {
-      margin-right: 0; }
+
 
 .touch .orbit-container .orbit-prev,
 .touch .orbit-container .orbit-next {

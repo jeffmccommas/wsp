@@ -70,6 +70,17 @@ h2 {
   
 }
 
+/*Side Bar Banners*/
+
+.section-container li.banners img {
+  max-width: 230px;
+  max-height: 180px;
+}
+.section-container ul {
+  margin: 0 0 0 -10px;
+}
+
+
 #footer {
   width: 100%;
   background: #B8460D;

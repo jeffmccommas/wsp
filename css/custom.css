@@ -43,7 +43,7 @@ h1 {
   line-height: 1.2125em; }
 
 h2 {
-  font-family: "Anton", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   font-style: normal;
   color: #8a8989;
@@ -53,7 +53,7 @@ h2 {
 
 .subheader {
   line-height: 1.4;
-  font-family: "Anton", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #8a8989;
   font-weight: 300;
   margin-top: 0.2em;
@@ -83,7 +83,7 @@ h2 {
 
 #footer {
   width: 100%;
-  background: #B8460D;
+  background: #000;
   min-height: 100px;
   margin: 10px auto;
   padding: 35px 0 0 0;
@@ -120,7 +120,7 @@ h2 {
 
 .contain-to-grid {
   width: 100%;
-  background: #B8460D;
+  background: #000;
   margin-top: 2.2em; }
   .contain-to-grid .top-bar {
     margin-bottom: 1.875em; 

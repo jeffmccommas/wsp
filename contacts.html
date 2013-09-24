@@ -75,58 +75,70 @@
 
 	<div class="row">
 		<section class="large-9 columns">
-			<h1>Contact Us</h1>
+			<h1>Online Catering Form</h1>
+      <p>Looking for some fresh, delicious catered food for your next event? Fill out this easy-to-use form to book your catering. Our catering manager will respond back to you within one business day to confirm your event. If you are hoping to cater an event within the next 48 hours, please call (800) 123-4567 to speak with someone regarding availability.</p>
+
+      <p>Once you enter a number of guests, the form will calculate an estimated price for your order at the bottom (not including tax, tip, or delivery).</p>
 
       <form class="custom">
-        <div class="row">
-          <div class="large-6 columns">
-            <div class="row collapse">
-              <div class="large-3 small-3 columns">
-                <select>
-                  <option>Mr.</option>
-                  <option>Mrs.</option>
-                  <option>Miss.</option>
-                  <option>Ms.</option>
-                  <option>Dr.</option>
-                </select>
-              </div>
-              <div class="large-9 small-9 columns">
-                <input type="text" placeholder="Name" />
-              </div>
-            </div>
-            <input type="email" placeholder="Email" />
-            <select id="contactDropdown">
-              <option DISABLED>How did you find us?</option>
-              <option>Google</option>
-              <option>A friend told me</option>
-              <option>Not sure, where am I?</option>
-            </select>
-        </div>
-          <div class="large-6 columns">
-            <textarea placeholder="Message"></textarea>
-            <div class="row">
-              <div class="large-6 small-6 columns">
-                <label>Send me spam&nbsp;&nbsp;
-                  <input type="checkbox" CHECKED style="display:none" />
-                </label>
-              </div>
-              <div class="large-3 small-3 columns">
-                <label>CC me?</label>
-              </div>
-              <div class="large-3 small-3 columns end">
-                <div class="switch tiny">
-                  <input id="x" name="switch-x" type="radio" checked>
-                  <label for="x" onclick="">No</label>
-                  <input id="x1" name="switch-x" type="radio">
-                  <label for="x1" onclick="">yes</label>
-                  <span></span>
+        
+          
+            <fieldset>
+              <legend>Event Info</legend>
+
+                <div class="large-6 columns">
+                 <label>Your Name</label>
+                 <input type="text">
                 </div>
-              </div>
-            </div>
-            <input class="button small large-12" type="submit" value="Send Message" />
-        </div>
-      </div>
-      </form>
+                <div class="large-6 columns">
+                  <label>Email Address</label>
+                  <input type="email" name="email">
+                </div>
+
+                <!--  -->
+
+                <div class="large-6 columns">
+                 <label>Organization Name</label>
+                 <input type="text">
+                </div>
+                <div class="large-6 columns">
+                  <label>Phone Number</label>
+                  <input type="tel" name="usrtel">
+                </div>
+
+                <!--  -->
+
+                <div class="large-12 columns">
+                  <label>Location of Event</label>
+                  <input type="text">
+                </div>
+
+
+                <!--  -->
+
+                <div class="large-12 columns">
+                  <label>Pickup/Delivery?</label>
+                  <select name="pickup" id="pickup" class="cformselect" >
+                    <option value="This order will be picked up">This order will be picked up</option>
+                    <option value="We would like this order delivered">We would like this order delivered</option>
+                    <option value="This event will be held at the Gathering Place">This event will be held at the Gathering Place</option>
+                  </select>
+                </div>
+
+                <!--  -->
+
+                <div class="large-12 columns">
+                  <label>Date of Event</label>
+                  <input type="datetime-local" name="bdaytime">
+                </div>
+
+
+                  <div class="large-12 large-centered columns">
+                   <input class="button small large-6 large-centered" type="submit" value="Send Message" />
+                  </div>
+
+            </fieldset>
+         </form>
 		</section>
 
 
